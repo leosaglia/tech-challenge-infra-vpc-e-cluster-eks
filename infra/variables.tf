@@ -21,7 +21,7 @@ variable "private_subnet_blocks" {
 
 variable "eks_cluster_name" {
   description = "The name of the EKS cluster"
-  default     = "tech-challeng-cluster"  
+  default     = "tech-challenge-cluster"  
 }
 
 variable "eks_version" {
