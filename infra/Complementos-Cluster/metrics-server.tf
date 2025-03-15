@@ -1,5 +1,4 @@
 resource "helm_release" "metrics_server" {
-  depends_on = [ module.cluster ]
   name = "metrics-server"
 
   repository = "https://kubernetes-sigs.github.io/metrics-server/"
