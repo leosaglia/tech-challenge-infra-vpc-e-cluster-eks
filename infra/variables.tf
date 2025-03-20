@@ -32,10 +32,10 @@ variable "eks_version" {
 
 variable "eks_role_arn" {
   description = "The name of the IAM role to create for EKS"
-  default     = "arn:aws:iam::759334756834:role/LabRole"
+  default     = "arn:aws:iam::835918211047:role/LabRole"
 }
 
 variable "node_group_role_arn" {
   description = "The name of the IAM role to create for the EKS node group"
-  default     = "arn:aws:iam::759334756834:role/LabRole"
+  default     = "arn:aws:iam::835918211047:role/LabRole"
 }
