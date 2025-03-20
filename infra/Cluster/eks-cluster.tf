@@ -13,7 +13,7 @@ resource "aws_eks_cluster" "eks" {
 resource "aws_security_group" "rds_sg" {
   name        = "tech-challenge-rds-sg"
   description = "RDS PostgreSQL"
-  vpc_id      = data.aws_vpc.selected_vpc.id
+  vpc_id      = var.vpc_id
 
   ingress {
     from_port = 5432
